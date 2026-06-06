@@ -48,14 +48,14 @@ a {
 
 .el1 img {
     min-width: 10px;
-    height: 300px;
+    height: 500px;
     margin-bottom: 15px;
 }
 
 .el2{
     display: flex;
     justify-content: center;
-    font-size: large;
+    font-size: larger;
     font-weight: bold;
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
