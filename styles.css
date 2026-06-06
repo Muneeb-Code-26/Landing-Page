@@ -35,9 +35,9 @@ a {
 }
 
 .parent2 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+    /* display: flex; 
+    flex-direction: column;  */
+    padding: 20px;
     font-size: medium;
     color: white;
 }
@@ -63,8 +63,23 @@ a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 10px;
 }
-
+.el3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .el3 img{
-    width: 500px;
-    height: 395px;
+    min-width: auto;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.el4{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
 }
